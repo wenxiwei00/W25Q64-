@@ -13,3 +13,7 @@ SPI_I2S_SendData：写数据到发送缓冲区TDR
 SPI_I2S_ReceiveData：把要读的数据写到接收缓冲区RDR
 
 FlagStatus SPI_I2S_GetFlagStatus：用来获取TDR是否有东西的标志位TXE，RDR是否有东西的标志位RXNE
+
+![image](https://github.com/user-attachments/assets/4236d401-4327-4d2f-a829-e5566e605623)
+硬件SPI的流程就是上述图中流程
+
