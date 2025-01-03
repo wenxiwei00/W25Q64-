@@ -5,7 +5,11 @@ STM32F103C8T6
 SPI_Init：SPI的初始化
 
 SPI_StructInit：SPI的结构体初始化
+
 SPI_Cmd：SPI外设初始化
+
 SPI_I2S_SendData：写数据到发送缓冲区TDR
+
 SPI_I2S_ReceiveData：把要读的数据写到接收缓冲区RDR
+
 FlagStatus SPI_I2S_GetFlagStatus：用来获取TDR是否有东西的标志位TXE，RDR是否有东西的标志位RXNE
